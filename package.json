@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node web-server/src/app.js"
+    "start": "node web-server/src/app.js",
+    "dev": "nodemon web-server/src/app.js -e js,hbs"
   },
   "author": "Pooja Joshi",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "chalk": "^2.4.2",
     "express": "^4.16.4",
     "handlebars": "^4.1.0",
@@ -17,5 +19,8 @@
     "validator": "^10.11.0",
     "xml-to-json-stream": "^1.1.0",
     "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }

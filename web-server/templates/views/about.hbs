@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>About</title>
-        <link rel="icon" href="/img/weather-icon.png">
-        <link rel="stylesheet" href="/css/styles.css" />
-    </head>
-    <body>
-        <div class="main-content">
-            {{> header}}
-            <p>This site was created By Pooja Joshi. It used data from LocationID and DarkSky.net</p>
-            <img class="portrait" src="/img/user.png" />
+
+<head>
+    <title>About</title>
+    <link rel="icon" href="/img/weather-icon.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 givehight">
+                <div class="main-content">
+                    {{> header}}
+                    <div class="well well-lg">
+                        <img class="portrait" src="/img/user.png" />
+                        <p>This site was created By Pooja Joshi. It used data from LocationID and DarkSky.net</p>
+                    </div>
+                </div>
+                {{> footer}}
+            </div>
         </div>
-        {{> footer}}
-    </body>
+    </div>
+</body>
 </html>
