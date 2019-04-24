@@ -10,7 +10,6 @@
   "author": "Pooja Joshi",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "chalk": "^2.4.2",
     "express": "^4.16.4",
     "handlebars": "^4.1.0",
